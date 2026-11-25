@@ -31,10 +31,14 @@ Pesquisa Aplicada (Views vs. Procedures): Estudo prático com 5 cenários reais 
 # 🗂️ Modelo Entidade-Relacionamento (DER)
 
 erDiagram
-    categorias ||--o{ produtos : "possui"
-    clientes ||--o{ pedidos : "realiza"
-    pedidos ||--|{ itens_pedido : "contém"
-    produtos ||--o{ itens_pedido : "está em"
+
+   categorias ||--o{ produtos : "possui"
+   
+   clientes ||--o{ pedidos : "realiza"
+    
+   pedidos ||--|{ itens_pedido : "contém"
+    
+   produtos ||--o{ itens_pedido : "está em"
 
     categorias {
         INT id_categoria PK
