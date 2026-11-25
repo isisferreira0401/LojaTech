@@ -2,7 +2,7 @@
 
 Repositório individual desenvolvido para a disciplina de Banco de Dados, contendo a criação do banco TechStore (loja_tech), resolução dos desafios de consultas SQL, implementação de Stored Procedures e estudo prático comparativo sobre quando utilizar Views ao invés de Stored Procedures.
 
-🎯 Sobre o Projeto
+# 🎯 Sobre o Projeto
 
 O projeto simula o ambiente de dados de um e-commerce de produtos de tecnologia (TechStore) e contempla:
 
@@ -14,7 +14,7 @@ Stored Procedures: Procedimentos armazenados seguindo boas práticas (DROP PROCE
 
 Pesquisa Aplicada (Views vs. Procedures): Estudo prático com 5 cenários reais demonstrando quando priorizar o uso de VIEW.
 
-📁 Estrutura do Repositório
+# 📁 Estrutura do Repositório
 
 📦 atividade-stored-procedures-mysql
  ┣ 📜 01_schema_e_dados_iniciais.sql     # DDL e DML do banco loja_tech
@@ -23,7 +23,7 @@ Pesquisa Aplicada (Views vs. Procedures): Estudo prático com 5 cenários reais 
  ┣ 📜 04_views_exemplos.sql              # 5 casos práticos de uso de Views vs. Stored Procedures
  ┗ 📜 README.md                          # Documentação completa do projeto
 
-🗂️ Modelo Entidade-Relacionamento (DER)
+# 🗂️ Modelo Entidade-Relacionamento (DER)
 
 erDiagram
     categorias ||--o{ produtos : "possui"
@@ -75,7 +75,7 @@ erDiagram
         TEXT descricao
     }
 
-🚀 Como Executar no MySQL Workbench
+# 🚀 Como Executar no MySQL Workbench
 
 Execute os scripts exatamente na ordem numérica abaixo para garantir a integridade dos dados:
 
@@ -87,7 +87,7 @@ Execute os scripts exatamente na ordem numérica abaixo para garantir a integrid
 
 4- 04_views_exemplos.sql: Cria e consulta as 5 Views desenvolvidas na pesquisa.
 
-⚙️ Resumo das Stored Procedures Implementadas
+# ⚙️ Resumo das Stored Procedures Implementadas
 
 Procedure
 
@@ -137,7 +137,7 @@ IN p_id_cliente
 
 Retorna 3 Result Sets: dados do cliente, histórico de pedidos e resumo financeiro.
 
-⚖️ Pesquisa: 5 Situações para Usar VIEW ao Invés de STORED PROCEDURE
+# ⚖️ Pesquisa: 5 Situações para Usar VIEW ao Invés de STORED PROCEDURE
 
 Embora ambos sejam objetos armazenados no banco de dados que promovem reuso e segurança, suas finalidades arquiteturais são distintas:
 
@@ -171,7 +171,7 @@ Não permite WHERE ou JOIN externo na chamada
 
 Permite WHERE, JOIN, GROUP BY livremente
 
-Os 5 Cenários Práticos Implementados (04_views_exemplos.sql):
+# Os 5 Cenários Práticos Implementados (04_views_exemplos.sql):
 
 Integração Nativa com Ferramentas de BI (vw_bi_vendas_detalhadas): Softwares como Power BI, Metabase e Tableau conectam-se a Views como se fossem tabelas nativas, permitindo filtros dinâmicos diretamente nos painéis visuais.
 
