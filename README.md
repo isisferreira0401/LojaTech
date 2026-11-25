@@ -18,9 +18,13 @@ Pesquisa Aplicada (Views vs. Procedures): Estudo prático com 5 cenários reais 
 
 📦 atividade-stored-procedures-mysql
  ┣ 📜 01_schema_e_dados_iniciais.sql     # DDL e DML do banco loja_tech
+
  ┣ 📜 02_consultas_sql.sql               # Resolução dos 10 desafios de consultas SQL (Parte 1)
+
  ┣ 📜 03_stored_procedures.sql           # Stored Procedures da lista (Parte 2) + exercícios da aula
+
  ┣ 📜 04_views_exemplos.sql              # 5 casos práticos de uso de Views vs. Stored Procedures
+
  ┗ 📜 README.md                          # Documentação completa do projeto
 
 # 🗂️ Modelo Entidade-Relacionamento (DER)
